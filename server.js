@@ -38,7 +38,7 @@ client.on("ready", () => {
   console.log("Bot online!");
 });
 
-client.login("NzY0ODM0OTIzODQ0MjA2NjEz.X4MCBw.8PYWSRkVvovu7o8WbfhwjWh-NjE");
+client.login("");
 
 client.commands.get("trashcollector").execute(client);
 
