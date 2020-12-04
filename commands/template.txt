@@ -1,0 +1,38 @@
+"use strict"
+
+module.exports = {
+  name: "name",
+  execute(Discord, client, message, args) {
+    //code goes here
+  }
+};
+
+//Basic message awaiter template
+
+await message.channel
+      .awaitMessages(msg => {}, { max: 1, time: 90000 })
+      .then(collected => {
+        let msg;
+        for (let [key, value] of collected) {
+          msg = value;
+        }
+        
+        //code goes here
+        
+      });
+
+//also
+
+let varname = await message.channel.awaitMessages(
+      msg => {},
+      { max: 1, time: 90000 }
+    )
+    
+//New roles
+
+Classes.NAME = class extends Classes.Player {
+  //NAME
+  constructor(id, channel, name) {
+    super(id, "NAME", channel, name);
+  }
+};

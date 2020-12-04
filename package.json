@@ -1,0 +1,21 @@
+{
+  "name": "apocalyptic-chaos-bot",
+  "version": "1.4.0",
+  "description": "A discord bot used to run the game \"Apocalyptic Chaos\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
